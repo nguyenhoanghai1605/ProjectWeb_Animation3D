@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas tshop</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./app/dist/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header data-aos="fade-down">
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">TSHOP</div>
+                <div class="header__right">
+                    <ul class="nav">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">services</a></li>
+                    </ul>
+                    <div class="user-menu">
+                        <i class='bx bx-cart-alt'></i>
+                        <span class="menu-toggle">
+                            <i class='bx bx-menu-alt-right'></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- hero slider -->
+    <div class="hero-slide" data-aos="flip-right">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="content" style="background-image: url(./assets/banner/banner-2.jpg);">
+                        <div class="text text-white">
+                            <h2>Merry Christmas</h2>
+                            <h2 class="discount">Get 70% Off</h2>
+                            <button class="btn snow">show now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content" style="background-image: url(./assets/banner/banner-1.jpg);">
+                        <div class="text">
+                            <h2>Christmas Sale</h2>
+                            <h2 class="discount">50% Off</h2>
+                            <button class="btn">show now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <!-- end hero slider -->
+
+    <!-- motion -->
+    <div class="section">
+        <div class="container">
+            <div class="motion">
+                <div class="motion__item" style="background-image: url(./assets/banner/small-banner-1.jpg);"
+                    data-aos="slide-up">
+                    <div class="content">
+                        <button class="btn snow">shop now</button>
+                    </div>
+                </div>
+                <div class="motion__item" style="background-image: url(./assets/banner/small-banner-2.jpg);"
+                    data-aos="slide-up">
+                    <div class="content">
+                        <button class="btn snow">shop now</button>
+                    </div>
+                </div>
+                <div class="motion__item" style="background-image: url(./assets/banner/small-banner-3.jpg);"
+                    data-aos="slide-up">
+                    <div class="content">
+                        <button class="btn snow">shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end motion -->
+
+    <!-- featured products -->
+    <div class="container">
+        <div class="section">
+            <div class="section__header">
+                Featured products
+            </div>
+            <div class="section__content">
+                <div class="swiper featured-product-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card" data-aos="flip-left">
+                                <div class="img-wrapper">
+                                    <img src="./assets/products/product-1.png" alt="product">
+                                    <div class="action">
+                                        <button class="btn sm">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Christmas cup</div>
+                                    <div class="price">$15.99</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card" data-aos="flip-left">
+                                <div class="img-wrapper">
+                                    <img src="./assets/products/product-2.png" alt="product">
+                                    <div class="action">
+                                        <button class="btn sm">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Christmas sock</div>
+                                    <div class="price">$15.99</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card" data-aos="flip-left">
+                                <div class="img-wrapper">
+                                    <img src="./assets/products/product-3.png" alt="product">
+                                    <div class="action">
+                                        <button class="btn sm">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Christmas pillow</div>
+                                    <div class="price">$15.99</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card" data-aos="flip-left">
+                                <div class="img-wrapper">
+                                    <img src="./assets/products/product-4.png" alt="product">
+                                    <div class="action">
+                                        <button class="btn sm">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Christmas pillow</div>
+                                    <div class="price">$15.99</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card" data-aos="flip-left">
+                                <div class="img-wrapper">
+                                    <img src="./assets/products/product-5.png" alt="product">
+                                    <div class="action">
+                                        <button class="btn sm">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <div class="name">Christmas snow globe</div>
+                                    <div class="price">$15.99</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end featured products -->
+
+    <!-- latest products -->
+    <div class="container">
+        <div class="section">
+            <div class="section__header">Latest products</div>
+            <div class="section__content">
+                <div class="product-grid">
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-5.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas snow globe</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-4.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas pillow</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-3.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas pillow</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-2.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas sock</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-1.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas cup</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-3.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas pillow</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-2.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas sock</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-aos="flip-down">
+                        <div class="img-wrapper">
+                            <img src="./assets/products/product-1.png" alt="product">
+                            <div class="action">
+                                <button class="btn sm">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="name">Christmas cup</div>
+                            <div class="price">$15.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end latest products -->
+
+    <!-- footer -->
+    <div class="section">
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="social-logos">
+                        <div class="social-logos__item" data-aos="slide-right">
+                            <a href="#">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </div>
+                        <div class="social-logos__item" data-aos="slide-down">
+                            <a href="#">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                        </div>
+                        <div class="social-logos__item" data-aos="slide-left">
+                            <a href="#">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="footer-menu">
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Term of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- end footer -->
+
+    <div class="overlay"></div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./app/js/app.js"></script>
+</body>
+
+</html>

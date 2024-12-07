@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="title">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300"
+                aria-label="Hai Dev animated reveal">
+                <defs>
+                    <style>
+                        @font-face {
+                            font-family: 'FallbackScript';
+                            src: local('Brush Script MT'), local('Segoe Script'), local('Lucida Handwriting');
+                        }
+                    </style>
+                </defs>
+
+                <!-- Transparent background (no rect) -->
+
+                <!-- Outline that 'draws' in -->
+                <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+                    font-family="FallbackScript, 'Brush Script MT', 'Segoe Script', 'Pacifico', 'Great Vibes', cursive"
+                    font-size="180" letter-spacing="1" fill="none" stroke="white" stroke-width="3.2"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1800" stroke-dashoffset="1800">
+                    Hai Dev
+                    <animate attributeName="stroke-dashoffset" from="1800" to="0" dur="3s" fill="freeze" />
+                </text>
+
+                <!-- Solid fill that fades in after the stroke draws -->
+                <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+                    font-family="FallbackScript, 'Brush Script MT', 'Segoe Script', 'Pacifico', 'Great Vibes', cursive"
+                    font-size="180" letter-spacing="1" fill="white" opacity="0">
+                    Hai Dev
+                    <animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="1.2s" fill="freeze" />
+                </text>
+            </svg>
+
+        </div>
+    </div>
+</body>
+
+</html>

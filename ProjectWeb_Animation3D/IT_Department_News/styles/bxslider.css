@@ -1,0 +1,32 @@
+/** RESET AND LAYOUT
+===================================*/
+.bx-wrapper {   margin: 0 auto 0px; padding: 0 }
+.bx-wrapper img { max-width: 100%; display: block; }
+/** THEME
+===================================*/
+.bx-wrapper .bx-viewport { left: 0px; /*fix other elements on the page moving (on Chrome)*/
+-webkit-transform: translatez(0); -moz-transform: translatez(0); -ms-transform: translatez(0); -o-transform: translatez(0); transform: translatez(0); }
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto { position: absolute; bottom: -30px; width: 100%; }
+/* LOADER */
+.bx-wrapper .bx-loading { min-height: 50px; /*background: url(../images/loading.gif) center center no-repeat #fff*/; height: 100%; width: 100%; position: absolute; top: 0; left: 0; z-index: 2000; display: none }
+/* DIRECTION CONTROLS (NEXT / PREV) */
+ .bx-wrapper .bx-controls-direction a { position: absolute; top: 45%; outline: 0; width: 32px; height: 32px; text-indent: -9999px; z-index: 9; }
+.bx-wrapper .bx-prev { left: 0px; background: url(../images/controls.png) no-repeat 0 -32px; }
+.bx-wrapper .bx-next { right: 0px; background: url(../images/controls.png) no-repeat -43px -32px; }
+.bx-wrapper .bx-prev:hover { background-position: 0 0; }
+.bx-wrapper .bx-next:hover { background-position: -43px 0; }
+.bx-wrapper .bx-controls-direction a.disabled { display: none; }
+.slide-detail .bx-controls-direction a { top: 43% }
+.slide-detail .bx-controls-direction a.bx-next { width: 0; height: 0; border-left: 6px solid; border-top: 6px solid transparent; border-bottom: 6px solid transparent; right: -10px; }
+.slide-detail .bx-controls-direction a.bx-prev { width: 0; height: 0; border-right: 6px solid; border-top: 6px solid transparent; border-bottom: 6px solid transparent; left: -10px; }
+ 
+.imgLarge img { max-width: 100% }
+.sl-product { display: inline-block; width: 100% }
+ .slide .inner-product { padding: 5px; }
+.slide-hoz { margin: 20px 0; margin-top: 40px; width: 100%; display: inline-block }
+.slide-p { background: #1a1a1a; padding:10px 0; margin-top:20px }
+.slide-p .bx-controls-direction a.bx-next { background: url(../images/arrows.png) right center; width:11px; height:51px; right:5px }
+.slide-p .bx-controls-direction a.bx-prev { background: url(../images/arrows.png) left center; width:11px; height:51px; left:5px}
+.slide-p .bx-controls-direction a{ top:20%}
+.slide-p{ position:relative; padding:10px 20px}
+.slide-detail{ position:relative}

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATShop</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">JBL Shop</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">034 1234 567</a>
+                        </li>
+                        <li>
+                            <a href="#">JBLshop@mail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="devided">
+                        <!-- <li class="dropdown">
+                            <a href="">USD</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">VND</a></li>
+                                <li><a href="#">JPY</a></li>
+                                <li><a href="#">EUR</a></li>
+                            </ul>
+                        </li> -->
+                        <li class="dropdown">
+                            <a href="">VIETNAMESE</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">ENGLISH</a></li>
+                                <li><a href="#">JAPANESE</a></li>
+                                <li><a href="#">FRENCH</a></li>
+                                <li><a href="#">SPANISH</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Đơn hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="#" class="logo">JBL Shop</a>
+                    <div class="search">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="#">Trang chủ</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Sản phẩm JBL<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Tai nghe JBL Charge</h3>
+                                            <ul>
+                                                <li><a href="#">JBL Boombox 3</a></li>
+                                                <li><a href="#">JBL Charge 5</a></li>
+                                                <li><a href="#">JBL Partybox</a></li>
+                                                <li><a href="#">JBL Flip 6</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Tai nghe JBL Tune 750</h3>
+                                            <ul>
+                                                <li><a href="#">JBL Tune 750BTNC</a></li>
+                                                <li><a href="#">JBL Tune 350BTNC</a></li>
+                                                <li><a href="#">JBL Tune 550BTNC</a></li>
+                                                <li><a href="#">JBL Tune headphone</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Loa JBL Jr</h3>
+                                            <ul>
+                                                <li><a href="#">JBL Jr310BT</a></li>
+                                                <li><a href="#">JBL JR300BT Kids </a></li>
+                                                <li><a href="#">JBL EVEREST 310GABT</a></li>
+                                                <li><a href="#">JBL Quantum 400</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Tai nghe JBL Horizon</h3>
+                                            <ul>
+                                                <li><a href="#">Loa JBL Horizon 2</a></li>
+                                                <li><a href="#">JBL Quantum 600</a></li>
+                                                <li><a href="#">Loa JBL Horizon Clock</a></li>
+                                                <li><a href="#">Loa JBL Horizon Sport</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/JBLHorizon_001_dvHAMaster.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">Dịch vụ</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Thiết kế thế hệ mới
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Tai nghe JBL TUNE 750TNC
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Ưu đãi 15% trên giá niêm yết khi mua kèm vỏ hộp đựng sản phẩm và các phụ kiện âm thanh đi kèm.
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>Mua Ngay</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="./images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Mẫu mã mới
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Tai nghe JBL Quantum ONE
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Nếu bạn tìm thấy nơi nào bán thấp hơn, chúng tôi sẽ đưa ra mức giá cạnh tranh hơn nữa!
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>Mua Ngay</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="./images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Sản phẩm hot
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Tai nghe JBL JR 310BT
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Thoải mái vận động với kết nối Bluetooth cho khoảng cách 15m, Thiết kế màu sắc trẻ trung, khoẻ khoắn, năng động. Thời gian nghe nhạc lên đến 12 giờ, khả năng sạc nhanh (1 giờ chơi nhạc với 10 phút sạc).
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>Mua Ngay</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+            </div>
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+            <!-- end slider controller -->
+        </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- promotion section -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Tai nghe Headphone & Earbuds</h3>
+                        <button class="btn-flat btn-hover"><span>Liên hệ</span></button>
+                    </div>
+                    <img src="./images/JBLHorizon_001_dvHAMaster.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Tai nghe JBL Quantum Series</h3>
+                        <button class="btn-flat btn-hover"><span>Liên hệ</span></button>
+                    </div>
+                    <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Tai nghe True Wireless Earbuds</h3>
+                        <button class="btn-flat btn-hover"><span>Liên hệ</span></button>
+                    </div>
+                    <img src="./images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end promotion section -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sản phẩm mới nhất</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">Mua Ngay</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                Tai nghe JBL Quantum 400
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>2.490.000 ₫</del></span>
+                                <span class="curr-price">2.090.000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- special product -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row">
+                <div class="col-4 col-md-4">
+                    <div class="sp-item-img">
+                        <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                    </div>
+                </div>
+                <div class="col-7 col-md-8">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">Tai nghe JBL TUNE 750TNC</div>
+                        <p class="sp-item-description">
+                            Trang bị công nghệ chống ồn tự động ANC loại bỏ tiếng ồn sung quanh, sạc đầy pin trong 2h thời gian sử dụng lên đến 15h.
+                        </p>
+                        <button class="btn-flat btn-hover">Mua Ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end special product -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sản phẩm bán chạy nhất</h2>
+            </div>
+            <div class="row" id="best-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">Mua Ngay</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                Tai nghe JBL Quantum 400
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>2.490.000 VND</del></span>
+                                <span class="curr-price">2.090.000 VND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">Xem thêm</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- blogs -->
+    <!-- <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Về JML</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="./images/JBL_Quantum400_Lifestyle1.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div class="blog-preview">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
+                    </div>
+                    <button class="btn-flat btn-hover">read more</button>
+                </div>
+            </div>
+            <div class="blog row-revere">
+                <div class="blog-img">
+                    <img src="./images/JBL_TUNE220TWS_Lifestyle_black.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div class="blog-preview">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
+                    </div>
+                    <button class="btn-flat btn-hover">read more</button>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="#" class="btn-flat btn-hover">Xem thêm</a>
+            </div>
+        </div>
+    </div> -->
+    <!-- end blogs -->
+
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Sản phẩm</h3>
+                    <ul class="menu">
+                        <li><a href="#">Tai nghe Bluetooth JBL T110BT</a></li>
+                        <li><a href="#">Tai nghe Bluetooth JBL INSP500</a></li>
+                        <li><a href="#">Tai nghe Bluetooth JBL LIVE200</a></li>
+                        <li><a href="#">Tai nghe Bluetooth thể thao JBL V110</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Dịch vụ</h3>
+                    <ul class="menu">
+                        <li><a href="#">Trung tâm hỗ trợ JBL</a></li>
+                        <li><a href="#">Trung tâm bảo hành, sửa chữa</a></li>
+                        <li><a href="#">Chăm sóc khách hàng</a></li>
+                        <li><a href="#">Dịch vụ đổi trả hàng 24h</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Hỗ trợ</h3>
+                    <ul class="menu">
+                        <li><a href="#">JBL SHOP</a></li>
+                        <li><a href="#">Địa chỉ: 215 Phan Van Trị, Gò Vấp, HCM</a></li>
+                        <li><a href="#">Liên hệ: 012 3456 789</a></li>
+                        <li><a href="#">Hotline: 19000001</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            JBL Shop
+                        </h3>
+                        <ul class="contact-socials">
+                            <li><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <input type="email" placeholder="Email">
+                        <button>Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

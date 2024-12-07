@@ -1,0 +1,49 @@
+@use './abstracts/' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    padding-top: $header-height;
+    color: $txt-color;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+
+    &:hover {
+        color: $main-color;
+    }
+}
+
+.text-white {
+    color: $white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1380px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: $main-color;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+    background-color: $main-color;
+}

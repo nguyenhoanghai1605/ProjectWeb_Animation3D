@@ -1,0 +1,47 @@
+@use '../abstracts/' as *;
+
+.product-card {
+    .img-wrapper {
+        @include flex(center, center);
+        background-color: $second-bg;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .action {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity .3s ease;
+
+            @include mobile {
+                opacity: 1;
+            }
+        }
+    }
+
+    &:hover .img-wrapper .action {
+        opacity: 1;
+    }
+
+    .info {
+        margin-top: 1rem;
+
+        .name {
+            font-weight: 600;
+        }
+
+        .price {
+            font-weight: 500;
+            color: $txt-second-color;
+        }
+    }
+}
+
+.featured-product-swiper .swiper-slide {
+    padding-bottom: 3rem;
+}

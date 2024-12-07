@@ -1,0 +1,13 @@
+.section {
+    margin-top: 5rem;
+
+    &__header {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    &__content {
+        margin-top: 4rem;
+    }
+}

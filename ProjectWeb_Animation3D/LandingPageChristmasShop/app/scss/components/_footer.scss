@@ -1,0 +1,49 @@
+@use '../abstracts/' as *;
+
+footer {
+    @include flex(center, center);
+    padding: 5rem 0;
+    background-color: $second-bg;
+
+    .footer-content {
+        .social-logos {
+            @include flex(center, center);
+
+            * ~ * {
+                margin-left: 1.5rem;
+            }
+
+            &__item {
+                a {
+                    @include flex(center, center);
+                    width: 40px;
+                    height: 40px;
+                    background-color: $main-color;
+                    border-radius: 50%;
+
+                    i {
+                        font-size: 1.5rem;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        .footer-menu {
+            @include flex(center, center);
+            margin-top: 2rem;
+
+            * ~ * {
+                margin-left: 2rem;
+            }
+
+            @include mobile {
+                flex-direction: column;
+
+                * ~ * {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

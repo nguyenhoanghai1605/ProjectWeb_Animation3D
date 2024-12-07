@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/base.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+        <link rel="stylesheet" href="./css/grid.css">
+        <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div id="app">
+        <div id="header">
+            <div class="header-nav">
+                <div class="header-nav-left">
+                    <div class="logo">
+                        <img src="./img/logo.webp" alt="">
+                    </div>
+                    <ul class="header-nav-left__list">
+                        <li class="header-nav-left__item">
+                            <a class="models" href="">models</a>
+                        </li>
+
+                        <li class="header-nav-left__item">
+                            <a class="custom" href="">custom solutions</a>
+                        </li>
+                        <li class="header-nav-left__item">
+                            <a class="ownership" href="">ownership</a>
+                        </li>
+                        <li class="header-nav-left__item">
+                            <a class="motorsport" href="">motorsport</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="header-nav-right">
+                    <ul class="header-nav-right__list">
+                        <li class="header-nav-right__item">
+                            <a href="">dealerships</a>
+                        </li>
+                        <li class="header-nav-right__item">
+                            <a href="">museum</a>
+                        </li>
+                        <li class="header-nav-right__item">
+                            <a href="">store</a>
+                        </li>
+                    </ul>
+                    <div class="header-nav-right__icon">
+                        <div class="header-nav-right__icon-box">
+                            <i class="msg-icon-header far fa-comments "></i>
+                            <i class="search-icon-header fas fa-search "></i>
+                            <i class="bars-icon-header fas fa-bars"></i>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="maskHeader"></div>
+
+            <div id="msg-icon-header" class="side-bar-msg">
+                <div class="side-bar-msg__title">
+                    <span>ASK ME</span>
+                    <i class="exit-icon-header fas fa-times"></i>
+                </div>
+                <div class="side-bar-msg__des">
+                    <div class="side-bar-msg__des-text">
+                        <div class="side-bar-msg__des-text-item">
+                            <span class="logo">L</span>
+                            <span class="text">
+                                I'm Lamborghini's first Artificial Intelligence, how can I help you?
+                            </span>
+                        </div>
+                        <div class="side-bar-msg__des-text-item">
+                            <span class="logo">L</span>
+                            <span class="text">
+                                You can choose one of the suggestions or ask me a question
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="side-bar-msg__des-choose">
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>MODELS</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>DEALERS</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>MUSEUM AND PRODUCTION LINE</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>AD PERSONAM</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>WORK WITH US</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>COMPANY AND HISTORY</span>
+                        </div>
+                        <div class="side-bar-msg__des-choose-item">
+                            <span>MASTERPIECES</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-bar-msg__input">
+                     <textarea form="query-form" id="input-text" name="" id="" cols="36" rows="2" placeholder="Hey, ask me something..."></textarea>
+                    <button>SEND</button>
+                </div>
+            </div>
+            <div id="search-icon-header" class="search-overplay">
+                <div class="search-icon-header-box">
+                    <div class="search-icon-header-close">
+                        <span>CLOSE SEARCH</span>
+                        <i class="exit-icon-header fas fa-times"></i>
+                    </div>
+                    <div class="search-icon-header-brand">LAMBORGHINI</div>
+                    <div class="search-icon-header-tittle">SEARCH IN THE WEBSITE</div>
+                    <div class="search-icon-header-input">
+                        <input type="text" placeholder="Search on Lamborghini.com">
+                        <div class="search-icon-heade-input-btn"><span>SEARCH</span> </div>
+                        <i class="search-icon-header fas fa-search "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bars-icon-header" class="bars-overplay">
+                <div class="bars-overplay-exit">
+                    <i class="exit-icon-header fas fa-times"></i>
+                </div>
+                <div class="bars-overplay-container">
+                    <div class="bars-overplay-row above">
+                        <div class="bars-overplay-col ">
+                            <ul class="bars-overplay-list">
+                                <li class="bars-overplay-item"><a href="">DESIGN</a></li>
+                                <li class="bars-overplay-item"><a href="">INNOVATION & EXCELLENCE</a></li>
+                            </ul>
+                        </div>
+                        <div class="bars-overplay-col">
+                            <ul class="bars-overplay-list">
+                                <li class="bars-overplay-item"><a href="">DRIVING PROGRAMS</a></li>
+                                <li class="bars-overplay-item"><a href="">LOUNGE</a></li>
+                                <li class="bars-overplay-item"><a href="">CLUB</a></li>
+                            </ul>
+                        </div>
+                        <div class="bars-overplay-col">
+                            <ul class="bars-overplay-list">
+                                <li class="bars-overplay-item"><a href="">HISTORY</a></li>
+                                <li class="bars-overplay-item"><a href="">NEWS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bars-overplay-row">
+                        <div class="bars-overplay-col ">
+                            <span class="bars-overplay-tittle">LANGUAGES</span>
+                            <ul class="bars-overplay-setting">
+                                <li class="bars-overplay-lan"><a class="active" href="">ENGLISH</a> </li>
+                                <li class="bars-overplay-lan"><a href="">ITALIAN</a> </li>
+                                <li class="bars-overplay-lan"><a href="">FRENCH</a> </li>
+                                <li class="bars-overplay-lan"><a href="">SPANISH</a> </li>
+                                <li class="bars-overplay-lan"><a href="">GERMAN</a> </li>
+                                <li class="bars-overplay-lan"><a href="">CHINESE</a> </li>
+                                <li class="bars-overplay-lan"><a href="">JAPANESE</a> </li>
+                                <li class="bars-overplay-lan"><a href="">VIETNAM</a> </li>
+                                <li class="bars-overplay-lan"><a href="">RUSSIAN</a> </li>          
+                            </ul>
+                        </div>
+                        <div class="bars-overplay-col">
+                            <span class="bars-overplay-tittle">SOCIAL</span>
+                            <ul class="bars-overplay-setting">
+                                <li class="bars-overplay-social"><a href=""><i class="fab fa-facebook-f"></i></a> </li>
+                                <li class="bars-overplay-social"><a href=""><i class="fab fa-instagram"></i></i></a> </li>
+                                <li class="bars-overplay-social"><a href=""><i class="fab fa-twitter"></i></i></a> </li>
+                                <li class="bars-overplay-social"><a href=""><i class="fab fa-tiktok"></i></a> </li>
+                                <li class="bars-overplay-social"><a href=""><i class="fab fa-linkedin-in"></i></a> </li>
+                            </ul>
+                        </div>
+                        <div class="bars-overplay-col">
+                            <span class="bars-overplay-tittle bars-overplay-tittle-setting">SETTING</span>
+                            <div class="bars-overplay-set">
+                                <div class="bars-overplay-set__item">
+                                    <span>TEXT SIZE</span>
+                                    <i class="fas fa-minus icon"></i>
+                                    <i class="fas fa-plus icon active"></i>
+                                </div>
+                                <div class="bars-overplay-set__item">
+                                    <span>TRANSITIONS</span>
+                                    <i class="fas fa-check icon active"></i>
+                                    <i class="fas fa-times icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="bars-overplay-mcontainer">
+                    <div class="bars-overplay-mcontainer-nav">
+                        <ul class="nav-list active">
+                            <li class="nav-item" style="visibility: hidden">
+                                <div class="nav-item-box">
+                                    <span class="mmodels">MODELS</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>   
+                            </li>
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mmodels">MODELS</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>    
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mcustom">CUSTIOM SOLUTION</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mownership">OWNERSHIP</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="mmotorsport">MOTORSPORT</span>
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">DEALERSHIPS</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">MUSEUM</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">STORE</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">DESIGN</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">INNOVATION & EXCELLENCE</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">DRIVING PROGRAMS</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">LOUNGE</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">CLUB</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">HISTORY</span>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="nav-item-box">
+                                    <span class="">NEWS</span>
+                                </div>
+                            </li>
+
+                            <li class="bars-overplay-mset">
+                                <div class="bars-overplay-mset__item">
+                                    <span>TEXT SIZE</span>
+                                    <i class="fas fa-minus icon"></i>
+                                    <i class="fas fa-plus icon active"></i>
+                                </div>
+                                <div class="bars-overplay-mset__item">
+                                    <span>TRANSITIONS</span>
+                                    <i class="fas fa-check icon active"></i>
+                                    <i class="fas fa-times icon"></i>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="header-menu-sdevie ">
+                            <div id="mmodels" class="header-menu-sdevice-item">
+                                <div class="header-menu-sdevice-item__list">
+                                    <ul>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-back">
+                                                <span class="menu-sdevice-back-logo">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271">
+                                                        <g stroke-width="1.5" transform="translate(-1624 -187.923)">
+                                                            <path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path>
+                                                            <path class="icon on-dark" d="M0 5.675L7.432 0l7.432 5.675" transform="rotate(-90 935.432 -711.068)"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="menu-sdevice-back-text">BACK</span>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item"> 
+                                            <div class="menu-sdevice-box">
+                                                <a class="maventador" href="">aventador</a>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+
+                                            <div id="maventador" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">AVENTADOR SVJ</a> </li>
+                                                    <li class="menu-sub-item"><a href="">AVENTADOR SVJ ROADSTER</a> </li>
+                                                    <li class="menu-sub-item"><a href="">AVENTADOR LP 780-4 ULTIMAE</a></li>
+                                                    <li class="menu-sub-item"><a href="">AVENTADOR LP 780-4 ULTIMAE ROADSTER</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item"> 
+                                            <div class="menu-sdevice-box">
+                                                <a class="mhuracan" href="">huracán</a> 
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="mhuracan" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">HURACÁN STO</a> </li>
+                                                    <li class="menu-sub-item"><a href="">HURACÁN EVO</a> </li>
+                                                    <li class="menu-sub-item"><a href="">HURACÁN EVO SPYDER</a></li>
+                                                    <li class="menu-sub-item"><a href="">HURACÁN EVO RWD</a></li>
+                                                    <li class="menu-sub-item"><a href="">HURACÁN EVO RWD SPYDER</a></li>
+                                                    <li class="menu-sub-item"><a href="">HURACÁN EVO FLUO CAPSULE</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item"> 
+                                            <div class="menu-sdevice-box">
+                                                <a class="murus" href="">urus</a> 
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="murus" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">URUS</a> </li>
+                                                    <li class="menu-sub-item"><a href="">URUS PEARL CAPSULE</a> </li>
+                                                    <li class="menu-sub-item"><a href="">URUS GRAPHITE CAPSULE</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item"> 
+                                            <div class="menu-sdevice-box">
+                                                <a class="mpre" href="">pre-owned</a> 
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item"> 
+                                            <div class="menu-sdevice-box">
+                                                <a class="mlimited" href="">limited series</a>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="mlimited" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">SIÁN FKP 37</a> </li>
+                                                    <li class="menu-sub-item"><a href="">SIÁN ROADSTER</a> </li>
+                                                    <li class="menu-sub-item"><a href="">COUNTACH LPI 800-4</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item"> 
+                                            <div class="menu-sdevice-box">
+                                                <a class="mconcept" href="">concept</a>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="mconcept" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">TERZO MILLENNIO</a> </li>
+                                                    <li class="menu-sub-item"><a href="">ASTERION</a> </li>
+                                                    <li class="menu-sub-item"><a href="">ESTOQUE</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                            
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="mcustom" class="header-menu-sdevice-item">
+                                <div class="header-menu-sdevice-item__list">
+                                    <ul>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-back">
+                                                <span class="menu-sdevice-back-logo">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271">
+                                                        <g stroke-width="1.5" transform="translate(-1624 -187.923)">
+                                                            <path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path>
+                                                            <path class="icon on-dark" d="M0 5.675L7.432 0l7.432 5.675" transform="rotate(-90 935.432 -711.068)"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="menu-sdevice-back-text">BACK</span>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="customization" href="">customization</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="accessories" href="">accessories</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="financialservices" href="">financial services</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="mownership" class="header-menu-sdevice-item">
+                                <div class="header-menu-sdevice-item__list">
+                                    <ul>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-back">
+                                                <span class="menu-sdevice-back-logo">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271">
+                                                        <g stroke-width="1.5" transform="translate(-1624 -187.923)">
+                                                            <path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path>
+                                                            <path class="icon on-dark" d="M0 5.675L7.432 0l7.432 5.675" transform="rotate(-90 935.432 -711.068)"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="menu-sdevice-back-text">BACK</span>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mconnectivity" href="">connectivity</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mcustomerapp" href="">customer app</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="classics" href="">classics</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mspareparts" href="">spare parts</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="massistanceandmaintenance" href="">assistance and maintenance</a>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="massistanceandmaintenance" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">ASSISTANCE</a> </li>
+                                                    <li class="menu-sub-item"><a href="">WARRANTY</a> </li>
+                                                    <li class="menu-sub-item"><a href="">CARE PROGRAM</a></li>
+                                                    <li class="menu-sub-item"><a href="">CERTIFIED BODY SHOP PROGRAM</a></li>
+                                                    <li class="menu-sub-item"><a href="">RECALL CAMPAIGN</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="mmotorsport" class="header-menu-sdevice-item">
+                                <div class="header-menu-sdevice-item__list">
+                                    <ul>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-back">
+                                                <span class="menu-sdevice-back-logo">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271">
+                                                        <g stroke-width="1.5" transform="translate(-1624 -187.923)">
+                                                            <path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path>
+                                                            <path class="icon on-dark" d="M0 5.675L7.432 0l7.432 5.675" transform="rotate(-90 935.432 -711.068)"></path>
+                                                        </g>
+                                                    </svg>
+                                                </span>
+                                                <span class="menu-sdevice-back-text">BACK</span>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="msupertrofeo" href="">super trofeo</a>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="msupertrofeo" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item" ><a href="">SUPER TROFEO EUROPE</a> </li>
+                                                    <li class="menu-sub-item"><a href="">SUPER TROFEO NORTH AMERICA</a> </li>
+                                                    <li class="menu-sub-item"><a href="">SUPER TROFEO WORLD FINAL</a></li>
+                                                    <li class="menu-sub-item"><a href="">CALENDAR AND RESULTS</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="gt3" href="">gt3</a> 
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mmotorsportmodels" href="">motorsport models</a> 
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="mmotorsportmodels" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">HURACÁN GT3 EVO</a> </li>
+                                                    <li class="menu-sub-item"><a href="">HURACÁN SUPER TROFEO EVO2</a> </li>
+                                                    <li class="menu-sub-item"><a href="">SC18 ALSTON</a></li>
+                                                    <li class="menu-sub-item"><a href="">SC18 ALSTON</a></li>
+                                                    <li class="menu-sub-item"><a href="">SC20</a> </li>
+                                                    <li class="menu-sub-item"><a href="">HERITAGE</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mdrivers" href="">drivers</a> 
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mmotorsportnews" href="">motorsport news</a>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mexperience" href="">experience</a>
+                                                <i class="fas fa-chevron-right"></i>
+                                            </div>
+                                            <div id="mexperience" class="menu-sub-sdevice-item">
+                                                <ul >
+                                                    <li class="menu-sub-item"><a href="">LAMBORGHINI PILOTA</a> </li>
+                                                    <li class="menu-sub-item"><a href="">SUPER TROFEO VIP PROGRAM</a> </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="header-menu-item">
+                                            <div class="menu-sdevice-box">
+                                                <a class="mesports" href="">esports</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                        </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="bars-overplay-mcontainer-social">
+                        <div class="social-item">
+                            <div class="social-item-container">
+                                <div class="social-item-content">
+                                    <span class="social-item-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271" class="exagon up"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path class="background exagon" d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)"></path><path class="foreground up" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-180 828.432 109.068)"></path></g></svg>
+                                    </span class="social-item-text">
+                                    <span class="social-item-text">ENGLISH</span>
+                                </div>
+                            </div>
+                            <div class="social-item-details">
+                                <div class="social-item-details-container">
+                                    <ul>
+                                        <li>ENGLISH</li>
+                                        <li>CHINESE</li>
+                                        <li>JAPANESE</li>
+                                        <li>GERMAN</li>
+                                        <li>SPANISH</li>
+                                        <li>FRENCH</li>
+                                        <li>RUSSIA</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-item">
+                            <div class="social-item-container">
+                                <div class="social-item-content">
+                                    <span class="social-item-logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271" class="exagon up"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path class="background exagon" d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)"></path><path class="foreground up" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-180 828.432 109.068)"></path></g></svg>
+                                    </span>
+                                    <span class="social-item-text">SOCIAL</span>
+
+                                </div>
+                            </div>
+                            <div class="social-item-details">
+                                <div class="social-item-details-container">
+                                    <ul>
+                                        <li>ENGLISH</li>
+                                        <li>CHINESE</li>
+                                        <li>JAPANESE</li>
+                                        <li>GERMAN</li>
+                                        <li>SPANISH</li>
+                                        <li>FRENCH</li>
+                                        <li>RUSSIA</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu ">
+                <div id="models" class="header-menu-item">
+                    <div class="header-menu-item__list">
+                        <ul>
+                            <li ><a class="aventador" href="">aventador</a></li>
+                            <li ><a class="huracan" href="">huracán</a> </li>
+                            <li ><a class="urus" href="">urus</a> </li>
+                            <li ><a class="pre" href="">pre-owned</a> </li>
+                            <li ><a class="limited" href="">limited series</a></li>
+                            <li ><a class="concept" href="">concept</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-sub">
+                        <div id="aventador" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">AVENTADOR SVJ</a> </li>
+                                <li><a href="">AVENTADOR SVJ ROADSTER</a> </li>
+                                <li><a href="">AVENTADOR LP 780-4 ULTIMAE</a></li>
+                                <li><a href="">AVENTADOR LP 780-4 ULTIMAE ROADSTER</a></li>
+                            </ul>
+                        </div>
+                        <div id="huracan" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">HURACÁN STO</a> </li>
+                                <li><a href="">HURACÁN EVO</a> </li>
+                                <li><a href="">HURACÁN EVO SPYDER</a></li>
+                                <li><a href="">HURACÁN EVO RWD</a></li>
+                                <li><a href="">HURACÁN EVO RWD SPYDER</a></li>
+                                <li><a href="">HURACÁN EVO FLUO CAPSULE</a></li>
+                            </ul>
+                        </div>
+                        <div id="urus" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">URUS</a> </li>
+                                <li><a href="">URUS PEARL CAPSULE</a> </li>
+                                <li><a href="">URUS GRAPHITE CAPSULE</a></li>
+                            </ul>
+                        </div>
+                        <div id="limited" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">SIÁN FKP 37</a> </li>
+                                <li><a href="">SIÁN ROADSTER</a> </li>
+                                <li><a href="">COUNTACH LPI 800-4</a></li>
+                            </ul>
+                        </div>
+                        <div id="concept" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">TERZO MILLENNIO</a> </li>
+                                <li><a href="">ASTERION</a> </li>
+                                <li><a href="">ESTOQUE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="custom" class="header-menu-item">
+                    <div class="header-menu-item__list">
+                        <ul>
+                            <li><a class="customization" href="">customization</a></li>
+                            <li><a class="accessories" href="">accessories</a> </li>
+                            <li><a class="financialservices" href="">financial services</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="ownership" class="header-menu-item">
+                    <div class="header-menu-item__list">
+                        <ul>
+                            <li><a class="connectivity" href="">connectivity</a></li>
+                            <li><a class="customerapp" href="">customer app</a> </li>
+                            <li><a class="classics" href="">classics</a> </li>
+                            <li><a class="spareparts" href="">spare parts</a> </li>
+                            <li><a class="assistanceandmaintenance" href="">assistance and maintenance</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-sub">
+                        <div id="assistanceandmaintenance" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">ASSISTANCE</a> </li>
+                                <li><a href="">WARRANTY</a> </li>
+                                <li><a href="">CARE PROGRAM</a></li>
+                                <li><a href="">CERTIFIED BODY SHOP PROGRAM</a></li>
+                                <li><a href="">RECALL CAMPAIGN</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="motorsport" class="header-menu-item">
+                    <div class="header-menu-item__list">
+                        <ul>
+                            <li><a class="supertrofeo" href="">super trofeo</a></li>
+                            <li><a class="gt3" href="">gt3</a> </li>
+                            <li><a class="motorsportmodels" href="">motorsport models</a> </li>
+                            <li><a class="drivers" href="">drivers</a> </li>
+                            <li><a class="motorsportnews" href="">motorsport news</a></li>
+                            <li><a class="experience" href="">experience</a></li>
+                            <li><a class="esports" href="">esports</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-sub">
+                        <div id="supertrofeo" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">SUPER TROFEO EUROPE</a> </li>
+                                <li><a href="">SUPER TROFEO NORTH AMERICA</a> </li>
+                                <li><a href="">SUPER TROFEO WORLD FINAL</a></li>
+                                <li><a href="">CALENDAR AND RESULTS</a></li>
+                            </ul>
+                        </div>
+                        <div id="motorsportmodels" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">HURACÁN GT3 EVO</a> </li>
+                                <li><a href="">HURACÁN SUPER TROFEO EVO2</a> </li>
+                                <li><a href="">SC18 ALSTON</a></li>
+                                <li><a href="">SC18 ALSTON</a></li>
+                                <li><a href="">SC20</a> </li>
+                                <li><a href="">HERITAGE</a> </li>
+                            </ul>
+                        </div>
+                        <div id="experience" class="menu-sub-item">
+                            <ul >
+                                <li><a href="">LAMBORGHINI PILOTA</a> </li>
+                                <li><a href="">SUPER TROFEO VIP PROGRAM</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="slider">
+                <div class="slides">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    
+                    <div class="slide first">
+                      <img src="./img/countach_hp.webp" alt="">
+                      <div class="slide-info">
+                          <span class="slide-name name1">COUNTACH LPI 800-4</span>
+                          <span class="slide-intro intro1">FUTURE IS OUR LEGACY</span>
+                          <a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                          </a>
+                      </div>
+                    <div class="bg-overplay"></div>
+
+                    </div>
+                    <div class="slide second">
+                      <img src="./img/ultimae_roadster_hp.webp" alt="">
+                      <div class="slide-info">
+                          <span class="slide-name name2">AVENTADOR LP 740-4 ULTIMATE ROADSTER</span>
+                          <span class="slide-intro intro2">IT TAKES TIME TO BECOME TIMELESS</span>
+                          <a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                          </a>
+                      </div>
+                    <div class="bg-overplay"></div>
+
+                    </div>
+                    <div class="slide third">
+                      <img src="./img/urus_graphite_hp.webp" alt="">
+                      <div class="slide-info">
+                          <span class="slide-name name3">URUS GRAPHITE CAPSULE</span>
+                          <span class="slide-intro intro3">UNLOCK ANY ROAD</span>
+                          <a href="">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                          </a>
+                      </div>
+                    <div class="bg-overplay"></div>
+
+                    </div>
+                    <div class="navigation-auto">
+                      <label for="radio1" class="auto-btn auto-btn1"></label>
+                      <label for="radio2" class="auto-btn auto-btn2"></label>
+                      <label for="radio3" class="auto-btn auto-btn3"></label>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="slider2">
+                <div class="slides2">
+                    <div class="slide2" data-index="0">
+                        <div class="slide2-skew">
+                            <div class="skew-fix">
+                                <img src="./img/slide2.webp" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slide2" data-index="1">
+                        <div class="slide2-skew">
+                            <div class="skew-fix">
+                                <img src="./img/slide22.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2 active" data-index="2">
+                        <div class="slide2-skew">
+                            <div class="skew-fix">
+                                <img src="./img/slide222.webp" alt="">
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="slider2-navigation">
+                    <span class="tittle">MODELS</span>
+                    <div class="slider2-navigation-btn">
+                        <span class="btn btn-left">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 5.675L7.432 0l7.432 5.675" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                        </span>
+
+                        <span class="btn btn-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="slide2-text-container">
+                    <div class="slogan1 text-container">
+                        <span class="name-car">AVENTADOR</span>
+                        <span class="slogan-car">REAL EMOTIONS SHAPE THE FUTURE</span>
+                    </div>
+
+                    <div class="slogan2 text-container active">
+                        <span class="name-car">URUS</span>
+                        <span class="slogan-car">UNLOCK ANY ROAD</span>
+                    </div>
+
+                    <div class="slogan0 text-container">
+                        <span class="name-car">HURACÁN</span>
+                        <span class="slogan-car">UNLOCK ANY ROADBASED ON A TRUE STORY</span>
+                    </div>
+                    <div class="slider2-explore">
+                        <span class="slider2-explore-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><g class="icon on-dark" transform="translate(627 -5248.5)"><path d="M0 0v15" transform="translate(1022.5 5458.5)"></path><path d="M0 0v15" transform="rotate(90 -2218 3248)"></path></g></g></svg>
+                        </span>
+                        <span class="slider2-explore-text">Explore the <br> models</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-create">
+                <input type="radio" name="radio-btn-create" id="radioA" checked>
+                <input type="radio" name="radio-btn-create" id="radioH">
+                <input type="radio" name="radio-btn-create" id="radioU">
+                <div class="content-create-container aventador">
+                    <div class="content-create-info">
+                        <span class="content-create-info__text1">CONFIGURATOR</span>
+                        <span class="content-create-info__text2">CREATE YOUR AVENTADOR </span>
+                    </div>
+                    <div class="content-create-img">
+                        <img src="./img/create-aventador.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="content-create-container huracan">
+                    <div class="content-create-info">
+                        <span class="content-create-info__text1">CONFIGURATOR</span>
+                        <span class="content-create-info__text2">CREATE YOUR HURCAN </span>
+                    </div>
+                    <div class="content-create-img">
+                        <img src="./img/create-huracan.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="content-create-container urus">
+                    <div class="content-create-info">
+                        <span class="content-create-info__text1">CONFIGURATOR</span>
+                        <span class="content-create-info__text2">CREATE YOUR URUS </span>
+                    </div>
+                    <div class="content-create-img">
+                        <img src="./img/create-urus.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="content-create-nav">
+                    <div class="content-create-nav__logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon light"></path><path class="icon light" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                    </div>
+                    <div class="content-create-nav__choose">
+                        <label for="radioA" class="content-create-nav__choose-name active">Aventador</label>
+                        <label for="radioH" class="content-create-nav__choose-name">Huracan</label>
+                        <label for="radioU" class="content-create-nav__choose-name">Urus</label>
+                    </div>
+                </div>
+            </div>
+            <div class="content-locator">
+                <div class="content-locator-img">
+                    <img src="./img/locator.webp" alt="">
+                </div>
+                <div class="content-locator-info">
+                    <span class="content-locator-info-text1">DEALER LOCATOR</span>
+                    <span class="content-locator-info-text2">FIND YOUR<br>COUNTRY DEALER </span>
+                    <a href="" class="content-locator-info-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.464 58.271"><g stroke-width="1.5" transform="translate(-1624 -187.923)"><path d="M50.464 43.992L25.732 58.271 1 43.992V15.434L25.732 1.155l24.732 14.279z" transform="translate(1623.5 187.345)" class="hexagon on-dark"></path><path class="icon on-dark" d="M0 0l7.432 5.674L14.864 0" transform="rotate(-90 935.432 -711.068)"></path></g></svg>
+                    </a>
+                </div>
+                <div class="content-locator__overplay"></div>
+            </div>
+            <div class="content-news">
+                <div class="grid wide">
+                    <div class="content-news-main">
+                        <span class="content-news-main__text1">NEWS</span>
+                        <span class="content-news-main__text2">LAMBORGHINI WORD</span>
+                        <a href="#" class="content-news-main__img">
+                            <img src="./img/newsmain.webp" alt="">
+                        </a>
+                    </div>
+                    <div class="content-news-sub">
+                        <div class="row mobile">
+                            <div class="col c-6 l-12 m-12">
+                                <a href="" class="content-news-sub__img">
+                                    <img src="./img/newssub.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="col c-6 l-12 m-12">
+                                <div class="content-news-sub__text">
+                                    <div class="content-news-sub__text-date">12 JANUARY 2002</div>
+                                    <a href="" class="content-news-sub__text-name">NEW SALES RECORD IN 2021 FOR LAMBORGHINI</a>
+                                    <a href="" class="content-news-sub__text-btn">
+                                        <span>READ MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mobile content-news-sub-mg">
+                            <div class="col c-6 l-12 m-12">
+                                <a href="" class="content-news-sub__img">
+                                    <img src="./img/newssbu2.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="col c-6 l-12 m-12">
+                                <div class="content-news-sub__text">
+                                    <div class="content-news-sub__text-date">11 JANUARY 2022</div>
+                                    <a href="" class="content-news-sub__text-name">AUTOMOBILI LAMBORGHINI AT PITTI IMMAGINE UOMO E BAMBINO</a>
+                                    <a href="" class="content-news-sub__text-btn">
+                                        <span>READ MORE</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-btn-container">
+                        <a href="" class="content-btn-all">
+                            <span>SEE ALL</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="grid wide footer">
+                <div class="footer-container">
+                    <div class="footer-above">
+                        <ul class="footer-above-nav">
+                            <li class="footer-above-nav__item">
+                                <a href="">COMPANY</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">CAREERS</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">CONTACT US</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">MEDIA CENTER</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">PRIVACY & LEGAL</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">COOKIE SETTINGS</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">SITEMAP</a>
+                            </li>
+                            <li class="footer-above-nav__item">
+                                <a href="">NEWSLETTER</a>
+                            </li>
+                            
+                        </ul>
+                        <ul class="footer-above-social">
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li class="footer-above-social__item">
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="footer-middle">The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, contact your dealer to get valid consumption and emissions information in your area.
+                    </p>
+                    <p class="footer-copyright">Copyright © 2021 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.
+                    </br>
+                    All rights reserved. VAT no. IT 00591801204
+                    </p>
+
+                    <ul class="footer-bottom-social">
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="footer-bottom-social__item">
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+    <script>
+        start();
+    </script>
+</body>
+
+</html>

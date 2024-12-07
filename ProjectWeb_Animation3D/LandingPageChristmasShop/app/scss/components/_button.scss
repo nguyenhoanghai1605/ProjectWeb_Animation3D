@@ -1,0 +1,54 @@
+@use '../abstracts/' as *;
+
+button {
+    outline: 0;
+    border: 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    font-size: x-large;
+    background-color: $main-color;
+    color: $white;
+    border-radius: $border-radius;
+    position: relative;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: $main-color-hover;
+    }
+
+    &.sm {
+        font-size: medium;
+        font-weight: 500;
+        padding: .5rem 2rem;
+    }
+
+    &.snow {
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            height: 100%;
+            width: 100px;
+        }
+
+        &::before {
+            top: -40%;
+            left: 0;
+            background-image: url(../../../assets/snow-1.png);
+        }
+
+        &::after {
+            top: -50%;
+            right: 0;
+            background-image: url(../../../assets/snow-2.png);
+        }
+    }
+}

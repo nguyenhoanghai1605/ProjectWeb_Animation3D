@@ -1,0 +1,590 @@
+﻿/*Nav Desktop*/
+ @import url(https://fonts.googleapis.com/css?family=Aldrich);
+.is-sticky {
+	z-index: 999996;
+}
+.sticky1 {
+	width: 100%;
+	clear: both;
+}
+.is-sticky.sticky1 {
+	background: #fff
+}
+.menu {
+	width: 100%;
+	clear: both;
+	position: relative;
+	z-index: 999996;
+	margin-top: 20px;
+	transition: all 0.3s
+}
+.is-sticky.sticky1 .menu {
+	margin-top: 0
+}
+.menu .container {
+	text-align: left;
+	position: relative
+}
+.parent h3 i {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	color: #000;
+	font-size: 30px;
+	padding: 0 30px;
+	line-height: 40px
+}
+.navx {
+	width: 100%;
+	clear: both;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+}
+.navx h3, .navx h4, .navx h5 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.navx .lv>a {
+	text-decoration: none;
+	white-space: nowrap;
+}
+.navx ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.navx .ul-lv1 {
+	display: none;
+}
+.navx ul ul {
+	display: none;
+}
+.navx ul ul .lv>a {
+	line-height: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #000;
+}
+.navx ul ul li {
+	position: relative;
+	min-width: 190px;
+	text-align: left;
+	border-bottom: solid 1px #eee;
+	position: relative;
+	padding: 3px
+}
+.navx ul ul li:last-child {
+	border: 0;
+}
+.navx ul ul li:hover >.lv > a {
+	color: #fff;
+}
+.navx>ul {
+	clear: both;
+	display: block;
+	width: 100%;
+	float: left
+}
+.navx>ul>li {
+	z-index: 1;
+	position: relative;
+	float: left;
+	margin: 0;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	background: #fff
+}
+.navx>ul>li> .lv1 >a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1em;
+	line-height: 40px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+}
+.navx > ul > li > ul {
+	left: 0;
+	z-index: 9;
+}
+.navx >ul> li >i, .navx ul ul li> i {
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 35px;
+	width: 30px;
+	text-align: center;
+	color: #000;
+	display: none
+}
+.btn_navx {
+	display: none;
+	position: relative;
+	height: 40px;
+	line-height: 34px;
+	background: #B61819;
+	color: #fff;
+	width: 40px;
+	text-align: center;
+	font-size: 23px;
+	color: #fff;
+	z-index: 99999;
+}
+.tg-search {
+	display: none
+}
+.btn_navx span {
+	position: relative;
+	display: block;
+	margin: auto;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	width: 24px;
+	height: 4px;
+	background-color: #000000;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 2px;
+	top: 45%
+}
+.btn_navx span:before, .btn_navx span:after {
+	width: 24px;
+	height: 4px;
+	background-color: #000000;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 2px;
+	content: "";
+	position: absolute;
+	left: 0;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	moz-transform-origin: 1.71429px center;
+	-ms-transform-origin: 1.71429px center;
+	-o-transform-origin: 1.71429px center;
+	-webkit-transform-origin: 1.71429px center;
+	transform-origin: 1.71429px center;
+}
+.btn_navx span:before {
+	top: -8px;
+}
+.btn_navx.btn_active span:before {
+	top: 0;
+	width: 15px;
+	-webkit-transform: rotate3d(0, 0, 1, -40deg);
+	transform: rotate3d(0, 0, 1, -40deg);
+}
+.btn_navx span:after {
+	top: 8px;
+}
+.btn_navx.btn_active span:after {
+	top: 0;
+	width: 15px;
+	-webkit-transform: rotate3d(0, 0, 1, 40deg);
+	transform: rotate3d(0, 0, 1, 40deg);
+}
+
+@media screen and (min-width: 768px) {
+.navx .ul-lv1 {
+	position: absolute;
+}
+.navx>ul>li:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	background-color: #253F7D;
+	z-index: 0;
+	border-radius: 10px 10px 0 0
+}
+.navx>ul>li:hover:before {
+	height: 100%;
+	z-index: 0;
+}
+.small {
+	font-family: 'Aldrich';
+	font-size: 13px;
+	clear: both;
+	width: 100%;
+	text-align: left !important;
+	display: none
+}
+.menu {
+	border-bottom: solid 3px #253F7D;
+	padding-bottom: 0
+}
+.navx>ul>li> .lv1 >a {
+	color: #0C56B6;
+	font-size: 1.4em;
+	text-transform: none;
+	position: relative;
+	z-index: 1;
+	padding-left: 21px;
+	padding-right: 22px;
+	font-weight: 400;
+	display: inline-block;
+	line-height: normal
+}
+.navx>ul>li> .lv1 >a span {
+	width: 100%;
+	float: left
+}
+.navx>ul>li> .lv1 >a >span:first-child {
+	text-transform: uppercase
+}
+.navx >ul>li>ul {
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	transition: 1s ease;
+	-webkit-transition: 1s ease;
+	top: 100%;
+	padding: 5px;
+}
+.navx >ul>li:nth-child(n+7)>ul {
+	left: auto;
+	right: 0
+}
+.navx>ul>li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	border-radius: 10px 10px 0 0;
+	margin-right: 1px;
+}
+.navx >ul>li:nth-child(n+3)>ul.menu_lg {
+	left: -50%;
+}
+.navx >ul>li:nth-child(n+4)>ul.menu_lg {
+	left: -300px
+}
+.navx >ul>li:nth-child(n+6)>ul.menu_lg {
+	left: -500px
+}
+.navx>ul>li:before {
+	background-color: #CD3838
+}
+.navx>ul>li {
+	background: #006DB0;
+	-webkit-box-shadow: inset 0 0 50px 0 #006DB0;
+	box-shadow: inset 0 0 50px 0 #006DB0;
+}
+.menu {
+	border-color: #006DB0
+}
+.navx>ul>li> .lv1 >a {
+	color: #fff
+}
+.navx>ul>li:first-child > a {
+	border-left: 0;
+	text-align: center;
+}
+.ul-lv1 {
+	width: 250px;
+	background-color: #253F7D;
+	position: relative;
+	font-size: 1.1em;
+	top: 100%;
+	height: 0;
+	overflow: hidden;
+	overflow: hidden;
+	background-color: #fff;
+	border-bottom: solid 2px #000;
+	border-top: solid 3px #006CB0;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.6);
+}
+.ul-lv1.menu_lg {
+	width: 700px;
+}
+.navx ul li:hover .ul-lv1 {
+	display: block !important;
+	height: auto;
+}
+.navx .ul-lv1>li {
+	background: #fff;
+	border-bottom: solid 1px #ccc
+}
+.navx .ul-lv1>li:hover>.lv>a {
+	color: #f00 !important;
+	z-index: 1
+}
+.navx>ul>li:hover> .lv1 > a, .navx>ul>li.active> .lv1 > a, .navx>ul>li:focus> .lv1 > a {
+	color: #fff
+}
+.navx>ul>li.active, .navx>ul>li:focus {
+}
+.navx .lv2 a i.fa-caret-right {
+	display: none !important
+}
+.lv2 small {
+	color: #666;
+	clear: both;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 0.9em;
+	font-weight: 400
+}
+.lv2 a {
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+.ul-lv1.menu_lg .lv2 a {
+	text-transform: uppercase
+}
+.other-media {
+	width: 240px;
+	float: right;
+	padding-top: 10px
+}
+.other-media .media-pc {
+	padding: 10px 20px;
+}
+.other-media .des-media-pc {
+	font-size: 13px;
+}
+.other-media .readmore-media-pc {
+	background: #CD3838;
+	color: #fff;
+	padding: 5px 10px;
+	margin-top: 10px;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: inline-block
+}
+.inner-media-pc {
+	width: 100%;
+	display: inline-block
+}
+.media-pc a {
+	color: #fff
+}
+.img-media-pc {
+	height: 150px;
+	overflow: hidden;
+	margin: 9px 0;
+	padding: 3px;
+	border: solid 1px #666
+}
+.img-media-pc img {
+	max-width: 100%;
+}
+.tt-media-pc {
+	font-size: 1em;
+	font-weight: 600
+}
+.box-li {
+	background: #fff;
+	padding-top: 10px;
+	float: left
+}
+.navx ul ul li:hover > .lv> a {
+	color: #000;
+	text-decoration: underline
+}
+.navx ul ul ul li {
+	border-bottom: solid 1px #ccc
+}
+.navx ul ul ul.ul-lv2 {
+	position: relative;
+	display: block
+}
+.navx ul .menu_lg> li {
+	border: 0;
+	width: 33.33%;
+	float: left;
+	padding: 0 10px
+}
+.navx ul ul ul li {
+	border-bottom: solid 1px #ccc
+}
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+.navx>ul>li> .lv1 >a {
+	font-size: 0.8em;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.navy a {
+	font-size: 0.9em;
+	padding-left: 15px
+}
+}
+
+@media screen and (max-width: 768px) {
+.navx >ul li > i {
+	display: inline-block !important
+}
+.media-pc {
+	display: none !important
+}
+.navx {
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #ffffff;
+	color: #000000;
+}
+.btn_navx {
+	background: none;
+}
+.navx:before, .navx:after {
+	width: 0;
+}
+.navx>ul>li> .lv1 >a {
+	font-size: 0.9em;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 40px
+}
+.btn_navx {
+	display: block;
+}
+.navx>ul>li> .lv1 >a:before {
+	line-height: 40px;
+}
+.navx >ul {
+	display: block;
+	margin-top: 0px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 100%;
+	background: #ddd;
+	z-index: 9;
+	left: -120%;
+	-webkit-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+	font-size: 1.2em
+}
+.navx >ul>li {
+	float: none;
+	border: 0;
+	margin: 0;
+	text-align: left;
+	width: 100%;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	padding: 0
+}
+.navx >ul>li:hover, .navx >ul>li:active, .navx >ul>li:focus {
+}
+.navx>ul>li:hover> .lv1 > a, .navx>ul>li.active> .lv1 > a, .navx>ul>li:focus> .lv1 > a {
+	color: #000
+}
+.navx >ul>li> .lv1 >a {
+	color: #000;
+	padding: 0;
+	padding-left: 10px;
+}
+.navx>ul>li:first-child {
+}
+.navx ul li, .navx ul, .navx ul ul {
+}
+.navx ul li {
+	border-bottom: solid #ccc 1px;
+}
+.navx ul li:hover>ul {
+	display: none;
+}
+.navx ul ul, .navx ul ul ul {
+	position: relative;
+	clear: both;
+	top: auto;
+	left: 0;
+	background: #fff
+}
+.navx ul ul li {
+	border-bottom: #ccc solid 1px;
+	background: #eee;
+	padding: 0;
+	position: relative
+}
+.navx ul ul li:hover {
+	background: #ddd;
+}
+.navx ul ul a {
+	padding-left: 10px;
+	color: #1A150B;
+	line-height: 35px;
+}
+.navx ul ul li:hover a {
+	color: #000 !important
+}
+.navx > ul > li > ul {
+	position: relative;
+	clear: both;
+	top: auto;
+	left: auto;
+}
+.navx ul ul a {
+	line-height: 40px;
+	width: 100%
+}
+.navx ul ul ul a {
+	padding-left: 20px;
+	line-height: 30px;
+}
+.navx ul ul ul li {
+	background: #fff
+}
+.navx.menu_active>ul {
+	display: block;
+	left: 0
+}
+.search {
+	padding: 0 !important
+}
+}
+.caretB {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	vertical-align: middle;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid;
+	color: #ddd;
+	position: absolute;
+	top: -10px;
+	left: 40px
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+from {
+top: 200%;
+opacity: 0
+}
+to {
+opacity: 1
+}
+}
+ @keyframes animatetop {
+from {
+top: 200%;
+opacity: 0
+}
+to {
+opacity: 1
+}
+}
